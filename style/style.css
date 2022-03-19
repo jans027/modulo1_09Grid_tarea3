@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  background: #f6faff;
+}
+.textoTitulo{
+  background-color: #2a9d8f;
+  text-align: center;
+  padding: 350px 0px 10px 0px;
+  color: white;
+}
+.container {
+  display: grid;
+  grid-auto-columns: minmax(15rem, auto);
+  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+  grid-gap: 0rem;
+}
+.item {
+  background: #f1e9f7;
+  display: flex;
+  padding: 6rem;
+  font-size: 2rem;
+}
+.item--header {
+  background-image: url(../images/gato-1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.item--main {
+  background-image: url(../images/gato-2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.item--aside {
+  background-image: url(../images/gato-3.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.item--footer {
+  background-image: url(../images/gato-4.jpg);
+  background-position: center;
+  background-size: cover;
+} 
